@@ -1,6 +1,6 @@
 package visitor_java;
 
-class RealEstate implements IAsset  {
+public class RealEstate implements IAsset  {
 	private int EstValue;
 	private int MontlyRent;
 	

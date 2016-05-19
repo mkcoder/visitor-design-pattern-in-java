@@ -1,6 +1,6 @@
 package visitor_java;
 
-interface ICar {
-	void Honk();
+public interface ICar {
+	String Honk();
 	void accept(CarVisitor visitor);
 }

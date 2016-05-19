@@ -1,10 +1,11 @@
 package visitor_java;
 
-class Honda implements ICar {
+public class Honda implements ICar {
 	
 	@Override
-	public void Honk() {
-		System.out.println("An honda honks!");
+	public String Honk() {
+		System.out.println("A Honda honks!");
+		return "A Honda honks!";
 	}
 	
 	@Override

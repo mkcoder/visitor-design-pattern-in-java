@@ -3,12 +3,7 @@ package visitor_java;
 public class Program {
 
 	public static void main(String[] args) {
-		// Very basic example of a visitor class
-		ICar car = new Honda();
-		CarVisitor visitor = new CarVisitor();
-		car.accept(visitor);
-		car = new Toyota();
-		car.accept(visitor);
+		
 		
 		// Advance example of a visitor
 		Person jill = new Person();

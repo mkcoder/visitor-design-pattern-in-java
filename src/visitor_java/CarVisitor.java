@@ -1,7 +1,12 @@
 package visitor_java;
 
-class CarVisitor {
+public class CarVisitor {
+	String output;
 	void visit(ICar car) {
-		car.Honk();
+		output = car.Honk();
+	}
+	
+	public String getOutput() {
+		return output;
 	}
 }
